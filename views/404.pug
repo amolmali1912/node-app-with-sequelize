@@ -1,0 +1,8 @@
+//- To extend layout use extends keyword alongwith filepath as follows: 
+//- (we are extending "main-layout.pug" file)
+extends layouts/main-layout.pug  
+
+block content
+  h1 Page Not Found!
+
+  //- Since we do not want any additional css than main.css, we are not putting 'block styles'. block styles is the placeholder/hook we've defined in main-layout.pug file to add additional css files.
